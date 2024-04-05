@@ -85,8 +85,8 @@ extra_javascript:
 
 nav:
   - Home: index.md
-  - Versions:
-    - 2024.1: ./versions/2024.1.md
+  - Começar:
+    - 2024.1: ./Começar/2024.1.md
   - Handout:
     - Microservices:
       - Roadmap: ./handout/microservices/roadmap.md
