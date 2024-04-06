@@ -87,13 +87,13 @@ nav:
   - Home: index.md
   - Começar:
     - 2024.1: ./Começar/2024.1.md
-  - Handout:
+  - Diagrama:
     - Microservices:
-      - Roadmap: ./handout/microservices/roadmap.md
-      - Account: ./handout/microservices/account.md
-      - Auth: ./handout/microservices/auth.md
-      - Discovery: ./handout/microservices/discovery.md
-      - Gateway: ./handout/microservices/gateway.md
+      - Diagrama: ./diagrama/microservices/diagrama.md
+      - Account: ./diagrama/microservices/account.md
+      - Auth: ./diagrama/microservices/auth.md
+      - Discovery: ./diagrama/microservices/discovery.md
+      - Gateway: ./diagrama/microservices/gateway.md
     - DevOps:
       - Observability: ./handout/devops/observability.md
     #   - Roadmap: ./handout/devops-roadmap.md
