@@ -35,7 +35,7 @@ theme:
   # Palette toggle for dark mode
   - scheme: slate
     primary: black
-    accent: deep orange
+    accent: green
     toggle: 
       icon: material/weather-night
       name: Switch to light mode
@@ -43,7 +43,7 @@ theme:
   # Pallete toggle for ligth mode
   - scheme: default
     primary: blue
-    accent: deep orange
+    accent: green
     toggle: 
       icon: material/weather-sunny
       name: Switch to dark mode
