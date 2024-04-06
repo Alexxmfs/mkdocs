@@ -157,7 +157,7 @@ nav:
     - TLS for microservices: ./appendix/tls-for-microservices.md
   - Disclaimer: ./disclaimer.md
 
-
+#  Set-ExecutionPolicy -ExecutionPolicy  RemoteSigned -Scope Process
 # venv\Scripts\Activate.ps1
 # pip install mkdocs-material
 # mkdocs serve
