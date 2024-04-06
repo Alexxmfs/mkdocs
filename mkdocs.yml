@@ -90,7 +90,7 @@ nav:
   - Diagrama:
     - Microservices:
       - Diagrama: ./diagrama/microservices/diagrama.md
-      - Account: ./diagrama/microservices/account.md
+      - Jogadores: ./diagrama/microservices/jogadores.md
       - Auth: ./diagrama/microservices/auth.md
       - Discovery: ./diagrama/microservices/discovery.md
       - Gateway: ./diagrama/microservices/gateway.md
