@@ -70,3 +70,8 @@ sequenceDiagram
   JogadorRepository-->>JogadorController: Resultados
   JogadorController-->>Usuario: Retornar resultados formatados
 ```
+#### O Processo de ETL
+
+A extração de dados do site tracker.gg/valorant utilizando técnicas de web scraping para obter informações relevantes, como estatísticas de jogadores e partidas, em formato CSV. Em seguida, esses dados são importados para um banco de dados PostgreSQL usando a estrutura Spring Boot, que simplifica o desenvolvimento de aplicativos Java e a integração com bancos de dados. O projeto abrange diversas disciplinas, desde o desenvolvimento web até a ciência de dados, e o fluxo de dados ocorre da web para o aplicativo Spring Boot e, por fim, para o banco de dados PostgreSQL.
+
+![Descrição da imagem](./ETL.PNG)
