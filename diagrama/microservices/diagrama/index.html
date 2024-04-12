@@ -10,7 +10,7 @@
         <meta name="author" content="Alex Macedo.">
       
       
-        <link rel="canonical" href="http://vavadocs.com/diagrama/microservices/diagrama/">
+        <link rel="canonical" href="https://Alexxmfs.github.io/mkdocs-vava/diagrama/microservices/diagrama/">
       
       
         <link rel="prev" href="../../../Come%C3%A7ar/2024.1/">
@@ -709,6 +709,15 @@
   <a href="#interacao-entre-user-jogadorcontroller-e-jogadorrepository" class="md-nav__link">
     <span class="md-ellipsis">
       Interação entre User, JogadorController, e JogadorRepository
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#o-processo-de-etl" class="md-nav__link">
+    <span class="md-ellipsis">
+      O Processo de ETL
     </span>
   </a>
   
@@ -2342,6 +2351,15 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#o-processo-de-etl" class="md-nav__link">
+    <span class="md-ellipsis">
+      O Processo de ETL
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -2421,6 +2439,9 @@
   JogadorController-&gt;&gt;JogadorRepository: porcenVitAgent()
   JogadorRepository--&gt;&gt;JogadorController: Resultados
   JogadorController--&gt;&gt;Usuario: Retornar resultados formatados</code></pre>
+<h4 id="o-processo-de-etl">O Processo de ETL</h4>
+<p>A extração de dados do site tracker.gg/valorant utilizando técnicas de web scraping para obter informações relevantes, como estatísticas de jogadores e partidas, em formato CSV. Em seguida, esses dados são importados para um banco de dados PostgreSQL usando a estrutura Spring Boot, que simplifica o desenvolvimento de aplicativos Java e a integração com bancos de dados. O projeto abrange diversas disciplinas, desde o desenvolvimento web até a ciência de dados, e o fluxo de dados ocorre da web para o aplicativo Spring Boot e, por fim, para o banco de dados PostgreSQL.</p>
+<p><img alt="Descrição da imagem" src="../ETL.PNG" /></p>
 
 
 
