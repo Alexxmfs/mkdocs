@@ -160,4 +160,5 @@ nav:
 #  Set-ExecutionPolicy -ExecutionPolicy  RemoteSigned -Scope Process
 # venv\Scripts\Activate.ps1
 # pip install mkdocs-material
+# pip install markdown_grid_tables
 # mkdocs serve
