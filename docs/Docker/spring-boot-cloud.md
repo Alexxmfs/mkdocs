@@ -1,4 +1,4 @@
-# Container do Docker
+# Contêiner do Docker
 
 ???+ importante
 
@@ -26,7 +26,7 @@ Abra o terminal CMD e execute o comando:
 
     docker compose up -d --build --force-recreate
 
-Feito isso você terá criado um container no Docker onde estará nosso banco de dados.
+Feito isso você terá criado um contêiner no Docker onde estará nosso banco de dados.
 
 ???+ importante
 
