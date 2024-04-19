@@ -23,28 +23,8 @@ O Valorant Player Dashboard é um projeto interdisciplinar desenvolvido por estu
 
 ## Acesso à Documentação
 
-A documentação está disponível online em [LINK PARA A DOCUMENTAÇÃO](https://alexxmfs.github.io/mkdocs-vava/diagrama/microservices/gateway/) ou pode ser executada localmente seguindo as instruções abaixo.
+A documentação está disponível online em [LINK PARA A DOCUMENTAÇÃO](https://alexxmfs.github.io/mkdocs-vava/) ou pode ser executada localmente seguindo as instruções abaixo.
  
-Você pode instalar as bibliotecas necessárias executando o seguinte comando no terminal:
-
-```bash
-pip install requests
-pip install lxml
-pip install pandas
-pip install fake_useragent
-```
-
-## Uso
-
-1. Execute o arquivo `main.py`.
-2. O programa irá raspar os dados dos jogadores do Valorant do site Tracker.gg.
-3. Os dados coletados serão pré-processados e enviados para uma API local.
-
-## Estrutura do Projeto
-
-- `main.py`: Arquivo principal que inicia o processo de raspagem de dados.
-- `utils.py`: Contém funções utilitárias para processamento e inserção de dados.
-
 ## Licença
 
 Este projeto é licenciado sob a [MIT License](https://github.com/tech-espm/inter-2sem-2023-eventos/blob/main/LICENSE).
