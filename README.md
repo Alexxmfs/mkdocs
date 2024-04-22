@@ -8,10 +8,10 @@
 
 ## Integrantes
 - [Alex Macedo](https://github.com/Alexxmfs)
+- [Débora Duarte](https://github.com/duartedebis)
 - [Henrique Sardella](https://github.com/henrique-sdc)
 - [Thiago Alonso](https://github.com/ThiagoAlonso05)
 - [Rafa Ambrosio](https://github.com/rafaambrosio)
-- [Débora Duarte](https://github.com/duartedebis)
 
 # Documentação do Projeto Valorant Player Dashboard
 
