@@ -10,7 +10,7 @@ O primeiro passo para você testar o nosso projeto é baixar o aplicativo deskto
 
 Após a instalação do Docker clone o repositório:
 
-[https://github.com/henrique-sdc/Docker_Valorant.git](https://github.com/henrique-sdc/Docker_Valorant.git){target="_blank"}
+[https://github.com/henrique-sdc/Docker_Valorant](https://github.com/henrique-sdc/Docker_Valorant){target="_blank"}
 
 Abrindo o Repositório:
 
@@ -30,5 +30,5 @@ Feito isso você terá criado um contêiner no Docker onde estará nosso banco d
 
 ???+ importante
 
-    Todo vez que você for usar nosso sistema é preciso verificar se o Docker está ligado.
+    Toda vez que você for usar nosso sistema é preciso verificar se o Docker está ligado.
 
