@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#repository-template" class="md-skip">
+        <a href="#roteiro-para-rodar-nosso-projeto" class="md-skip">
           Skip to content
         </a>
       
@@ -563,9 +563,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#repository-template" class="md-nav__link">
+  <a href="#roteiro-para-rodar-nosso-projeto" class="md-nav__link">
     <span class="md-ellipsis">
-      Repository Template
+      Roteiro para Rodar nosso Projeto
     </span>
   </a>
   
@@ -2380,9 +2380,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#repository-template" class="md-nav__link">
+  <a href="#roteiro-para-rodar-nosso-projeto" class="md-nav__link">
     <span class="md-ellipsis">
-      Repository Template
+      Roteiro para Rodar nosso Projeto
     </span>
   </a>
   
@@ -2496,7 +2496,7 @@
 <a href="https://github.com/Alexxmfs/Scrape_Valorant">Scrape: https://github.com/Alexxmfs/Scrape_Valorant</a></br>
 <a href="https://github.com/Alexxmfs/Dashboard_Valorant">Frontend: https://github.com/Alexxmfs/Dashboard_Valorant</a></p>
 </details>
-<h2 id="repository-template"><a href="#repository">Repository Template</a></h2>
+<h2 id="roteiro-para-rodar-nosso-projeto"><a href="#repository">Roteiro para Rodar nosso Projeto</a></h2>
 <div class="tabbed-set tabbed-alternate" data-tabs="1:4"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Backend</label><label for="__tabbed_1_2">Docker</label><label for="__tabbed_1_3">Scrap</label><label for="__tabbed_1_4">Frontend</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
@@ -2504,18 +2504,19 @@
 <h1 id="backend"><a href="#projeto">Backend</a></h1>
 <p>Clonando Repositório Backend</p>
 <p>Este repositório contém o código-fonte da api desenvolvida para dados de jogadores do jogo Valorant. Para clonar o repositório e configurar o backend localmente, siga os passos abaixo:</p>
+<p>Clone esse repositório:</p>
 <div class="language-text highlight"><pre><span></span><code>https://github.com/Alexxmfs/Backend_Vava.git
 </code></pre></div>
 <ol>
 <li>
-<p>Clonado o repositório:</p>
+<p>Abrindo o repositório:</p>
 <p>Navegue até o diretório do projeto clonado:</p>
 <div class="language-text highlight"><pre><span></span><code>cd Backend_Vava
 </code></pre></div>
 <p>Abrir a IDE Visual Studio Code através</p>
 <div class="language-text highlight"><pre><span></span><code>cd code .
 </code></pre></div>
-<p>É preciso abrir o seguinte diretório "src/ main/resources/application.properties"</p>
+<p>É preciso abrir o seguinte diretório "src/main/resources/application.properties"</p>
 <div class="language-text highlight"><pre><span></span><code>spring.datasource.url=jdbc:postgresql://localhost:5432/vava
 spring.datasource.username=vava
 spring.datasource.password=vava
@@ -2543,7 +2544,8 @@ mvn spring-boot:run
 <p>O primeiro passo para você testar o nosso projeto é baixar o aplicativo desktop Docker:</p>
 <p><a href="https://www.docker.com/products/docker-desktop/" target="_blank">https://www.docker.com/products/docker-desktop/</a></p>
 <p>Após a instalação do Docker clone o repositório:</p>
-<p><a href="https://github.com/henrique-sdc/Docker_Valorant" target="_blank">https://github.com/henrique-sdc/Docker_Valorant</a></p>
+<div class="language-text highlight"><pre><span></span><code>https://github.com/henrique-sdc/Docker_Valorant.git
+</code></pre></div>
 <p>Abrindo o Repositório:</p>
 <p>Navegue até o diretório do projeto clonado:</p>
 <div class="language-text highlight"><pre><span></span><code>cd Docker_Valorant
@@ -2555,7 +2557,7 @@ mvn spring-boot:run
 <div class="language-text highlight"><pre><span></span><code>docker compose up -d --build --force-recreate
 </code></pre></div>
 <p>Feito isso você terá criado um contêiner no Docker onde estará nosso banco de dados.</p>
-<p>É preciso abrir o pgAdmin caso não tenha instalado instale <a href="https://www.postgresql.org/download/">PostgreSQL</a> depois de ter instalado abre o pgAdmin crie um banco de dados vava</p>
+<p>É preciso abrir o pgAdmin caso não tenha instalado instale <a href="https://www.postgresql.org/download/">PostgreSQL</a> depois de ter instalado abre o pgAdmin crie um banco de dados vava, após isso cole este comando no terminal SQL para criar nosso banco:</p>
 <div class="language-text highlight"><pre><span></span><code>    CREATE TABLE IF NOT EXISTS public.jogadores
     (
         id SERIAL PRIMARY KEY,
@@ -2604,9 +2606,6 @@ mvn spring-boot:run
 <p>Clonando Repositório Backend</p>
 <div class="language-text highlight"><pre><span></span><code>https://github.com/Alexxmfs/Scrape_Valorant.git
 </code></pre></div>
-<ol>
-<li>
-<p>Clonado o repositório:</p>
 <p>Navegue até o diretório do projeto clonado:</p>
 <div class="language-text highlight"><pre><span></span><code>cd Scrape_Valorant
 </code></pre></div>
@@ -2616,8 +2615,6 @@ mvn spring-boot:run
 <p>Comece a raspar</p>
 <div class="language-text highlight"><pre><span></span><code>python main.py
 </code></pre></div>
-</li>
-</ol>
 </div>
 <div class="tabbed-block">
 <h1 id="_5"></h1>
@@ -2643,8 +2640,8 @@ mvn spring-boot:run
 <p>Abrir a IDE Visual Studio Code através</p>
 <div class="language-text highlight"><pre><span></span><code>cd code .
 </code></pre></div>
-<p>Coloque o data-vava.csv dentro do C: depois cole dentro do pgAdmin o arquivo tratando-db.txt</p>
-<p><a href="../data-vava.csv">data-vava</a></p>
+<!-- Coloque o data-vava.csv dentro do C: depois cole dentro do pgAdmin o arquivo tratando-db.txt -->
+<!-- <a href="./data-vava.csv">data-vava</a> -->
 <p>Instale as dependências do projeto usando npm (Node Package Manager) no Visula Studio Code</p>
 <div class="language-text highlight"><pre><span></span><code>npm install
 </code></pre></div>
