@@ -20,7 +20,7 @@
       
       
       <link rel="icon" href="../../images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.19">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.20">
     
     
       
@@ -2325,6 +2325,12 @@
         top_weapon_headshot_2 VARCHAR(100),
         top_maps_1 VARCHAR(255),
         top_porcentagem_map_win_1 VARCHAR(100)
+    );
+
+    CREATE TABLE IF NOT EXISTS usuarios(
+        id SERIAL NOT NULL,
+        email character varying(255) NOT NULL,
+        senha character varying(255) NOT NULL
     );
 </code></pre></div>
 <details class="importante" open="open">
