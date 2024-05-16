@@ -20,7 +20,7 @@
       
       
       <link rel="icon" href="../../images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.20">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.23">
     
     
       
@@ -28,7 +28,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.66ac8b77.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.6543a935.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
@@ -2558,12 +2558,12 @@ mvn spring-boot:run
 </code></pre></div>
 <p>Feito isso você terá criado um contêiner no Docker onde estará nosso banco de dados.</p>
 <p>É preciso abrir o pgAdmin caso não tenha instalado instale <a href="https://www.postgresql.org/download/">PostgreSQL</a> depois de ter instalado abre o pgAdmin crie um banco de dados vava, após isso cole este comando no terminal SQL para criar nosso banco:</p>
-<div class="language-text highlight"><pre><span></span><code>    CREATE TABLE IF NOT EXISTS public.jogadores
+<div class="language-text highlight"><pre><span></span><code>CREATE TABLE IF NOT EXISTS public.jogadores
     (
         id SERIAL PRIMARY KEY,
         username VARCHAR(255),
         tag VARCHAR(100),
-        playtime NUMERIC(10,2),
+        playtime NUMERIC(10),
         matches NUMERIC(10),
         rating VARCHAR(100),
         level VARCHAR(100),
@@ -2579,16 +2579,42 @@ mvn spring-boot:run
         kills_round VARCHAR(100),
         clutches VARCHAR(100),
         top_agents_1 VARCHAR(255),
+        top_agents_2 VARCHAR(255),
+        top_agents_3 VARCHAR(255),
         top_hours_agent_1 VARCHAR(100),
+        top_hours_agent_2 VARCHAR(100),
+        top_hours_agent_3 VARCHAR(100),
         top_matches_agent_1 VARCHAR(100),
+        top_matches_agent_2 VARCHAR(100),
+        top_matches_agent_3 VARCHAR(100),
         top_win_agent_1 VARCHAR(100),
+        top_win_agent_2 VARCHAR(100),
+        top_win_agent_3 VARCHAR(100),
         top_kd_agent_1 VARCHAR(100),
+        top_kd_agent_2 VARCHAR(100),
+        top_kd_agent_3 VARCHAR(100),
         top_weapon_1 VARCHAR(255),
         top_weapon_headshot_1 VARCHAR(100),
         top_weapon_2 VARCHAR(255),
         top_weapon_headshot_2 VARCHAR(100),
+        top_weapon_3 VARCHAR(255),
+        top_weapon_headshot_3 VARCHAR(100),
         top_maps_1 VARCHAR(255),
-        top_porcentagem_map_win_1 VARCHAR(100)
+        top_maps_2 VARCHAR(255),
+        top_maps_3 VARCHAR(255),
+        top_maps_4 VARCHAR(255),
+        top_maps_5 VARCHAR(255),
+        top_porcentagem_map_win_1 VARCHAR(100),
+        top_porcentagem_map_win_2 VARCHAR(100),
+        top_porcentagem_map_win_3 VARCHAR(100),
+        top_porcentagem_map_win_4 VARCHAR(100),
+        top_porcentagem_map_win_5 VARCHAR(100)
+    );
+
+    CREATE TABLE IF NOT EXISTS usuarios(
+        id SERIAL NOT NULL,
+        email character varying(255) NOT NULL,
+        senha character varying(255) NOT NULL
     );
 </code></pre></div>
 <details class="importante" open="open">
@@ -2755,7 +2781,7 @@ mvn spring-boot:run
     <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "content.code.select", "content.tabs.link", "header.autohide", "announce.dismiss", "navigation.footer", "navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.top", "search.highlight", "search.share", "search.suggest", "content.code.annotate", "content.tooltips", "navigation.instant", "navigation.instant.progress", "navigation.path", "navigation.tracking"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.dd8806f2.min.js"></script>
+      <script src="../../assets/javascripts/bundle.ebd0bdb7.min.js"></script>
       
         <script src="../../javascripts/mathjax.js"></script>
       
