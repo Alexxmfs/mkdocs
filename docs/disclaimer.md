@@ -2,11 +2,11 @@
 
 | Name | |
 |-|-|
-| Humberto Sandmann | [:simple-github:](https://github.com/hsandmann){:target="_blank"} [:simple-linkedin:](https://www.linkedin.com/in/hsandmann/){:target="_blank"} [:material-web:](https://hsandmann.github.io/){:target="_blank"} | 
-| Fabio Roberto de Miranda | [:simple-github:](https://github.com/mirwox) [:simple-linkedin:](https://www.linkedin.com/in/fabiodemiranda/) |
-| Raul Ikeda | [:simple-github:](https://github.com/raulikeda) [:simple-linkedin:](https://www.linkedin.com/in/raul-ikeda-2a9ab3186/) |
-| Maciel Calebe Vidal | [:simple-github:](https://github.com/macielcalebe) [:simple-linkedin:](https://www.linkedin.com/in/macielvidal/) |
-| Eduardo Felipe Zambom Santana | [:simple-github:](https://github.com/ezambomsantana) |
+| Alex Macedo | [:simple-github:](https://github.com/Alexxmfs){:target="_blank"} [:simple-linkedin:](https://www.linkedin.com/in/alex-macedo-freitas/){:target="_blank"}  | 
+| Débora Duarte | [:simple-github:](https://github.com/duartedebis) [:simple-linkedin:](https://www.linkedin.com/in/deborapduarte/) |
+| Henrique Sardella | [:simple-github:](https://github.com/henrique-sdc) [:simple-linkedin:](https://www.linkedin.com/in/henrique-sdc/) |
+| Thiago Hilário | [:simple-github:](https://github.com/ThiagoAlonso05) [:simple-linkedin:](https://www.linkedin.com/in/thcsalonso/) |
+| Rafa Ambrosio | [:simple-github:](https://github.com/rafaoambrosio) [:simple-linkedin:](https://github.com/rafaoambrosio) |
 
 ## Source
 

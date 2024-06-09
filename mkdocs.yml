@@ -104,7 +104,6 @@ nav:
     - Spring Boot Cloud: ./Docker/spring-boot-cloud.md
     - Testing: ./Docker/testing.md
     - Documentation: ./Docker/documentation.md
-  - Platform:
     - Concepts: ./platform/concepts.md
     - Microservices: ./platform/microservices.md
     - Discovery: ./platform/discovery.md
@@ -134,7 +133,6 @@ nav:
       # - MongoDB: mongodb.md
       # - Elasticsearch: elasticsearch.md
     - Payment: ./platform/payment.md
-  - DevOps:
     - Concepts: ./devops/concepts.md
     - Version Control: ./devops/version-control-system.md
     - Docker: ./devops/docker.md
@@ -143,15 +141,12 @@ nav:
     # - Nexus: nexus.md
     # - SonarQube: sonarqube.md
     - Kubernetes: ./devops/kubernetes.md
-  - Cloud Computing:
     - AWS: ./cloud/aws.md
     - GCP: ./cloud/gcp.md
     - Azure: ./cloud/azure.md
     - GitActions: ./cloud/gitactions.md
     - Terraform: ./cloud/terraform.md
-  - Business:
     - Concepts: ./business/concepts.md
-  - Appendix:
     - REST vs GraphQL: ./appendix/rest-vs-graphql.md
     - Versioning REST APIs: ./appendix/versioning-rest-apis.md
     - TLS for microservices: ./appendix/tls-for-microservices.md
